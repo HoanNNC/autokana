@@ -119,7 +119,7 @@
             _clearInterval();
         };
         function _eventFocus(event) {
-            _stateInput();
+            // _stateInput();
             _setInterval();
         };
         function _eventKeyDown(event) {

@@ -1,6 +1,6 @@
 {
   "name": "jquery.autokana",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for automatically rendering Furigana for inputed Japanese Text.",
   "main": "jquery.autoKana.js",
   "scripts": {
