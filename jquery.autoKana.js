@@ -119,6 +119,7 @@
             _clearInterval();
         };
         function _eventFocus(event) {
+            values = elName.val().replace(kana_extraction_pattern, '').split('');
             // _stateInput();
             _setInterval();
         };
@@ -170,7 +171,7 @@
         function _stateInput() {
             baseKana = elKana.val();
             flagConvert = false;
-            ignoreString = elName.val();
+            ignoreString = '';
         };
         function _stateConvert() {
             baseKana = baseKana + values.join('');
